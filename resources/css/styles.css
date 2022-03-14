@@ -97,6 +97,10 @@ h1 {
 		gap: 10px;
 		justify-content: space-between;
 	}
+
+	.relstyles {
+	width: 100%;
+	}
 	
 	#socials {
 		display: flex;
