@@ -153,4 +153,22 @@ h2, h3, p {
 		flex-direction: column;
 		margin: 0% 10% 0% 10%;
 	}
+
+	.row1 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	}
+
+	.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #212121;
+	border-radius: 10px;
+	height: 450px;
+	width: auto;
+	padding: 20px;
+	}
 }
