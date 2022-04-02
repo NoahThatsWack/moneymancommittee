@@ -61,6 +61,7 @@ h2, h3, p {
 .releases {
 	display: flex;
 	gap: 10px;
+	margin-bottom: 10px;
 	justify-content: space-between;
 }
 
@@ -142,6 +143,7 @@ h2, h3, p {
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
+		margin-bottom: 10px;
 		justify-content: space-between;
 	}
 
