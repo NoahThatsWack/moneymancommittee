@@ -75,9 +75,10 @@ h2, h3, p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	background-color: #212121;
 	border-radius: 10px;
-	height: 450px;
+	height: 470px;
 	width: 35%;
 	padding: 20px;
 }
@@ -165,9 +166,10 @@ h2, h3, p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	background-color: #212121;
 	border-radius: 10px;
-	height: 450px;
+	height: 470px;
 	width: auto;
 	padding: 20px;
 	}
@@ -177,9 +179,10 @@ h2, h3, p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	background-color: #212121;
 	border-radius: 10px;
-	height: 450px;
+	height: 470px;
 	width: auto;
 	padding: 20px;
 	margin-bottom: 50px;
