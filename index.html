@@ -12,10 +12,11 @@
 	<meta property="og:image" content="https://www.moneymancommittee.com/resources/images/MoneyManCommitteeText.png">
 	<meta property="og:image:secure_url" content="https://www.moneymancommittee.com/resources/images/MoneyManCommitteeText.png">
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="resources/images/MoneyManCommitteeText.png">
 	<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<title>The Money Man Committee</title>
 </head>
-<body>
+<body onload="javascript:shuffle()">
 	<header>
 		<img class="icon" src="resources/images/MoneyManCommitteeText.png">
 	</header>
@@ -34,10 +35,79 @@
 	</div>
 	<div id="socials">
 		<h1>Who is the MMC?</h1>
-		<div class="social">
-			<img class="circle" src="">
+		<div class="row1" id="row1">
+			<div class="social">
+				<img class="circle" src="resources/images/pin.jpg">
+				<h1>@_Aupin_</h1>
+				<h3>About</h3>
+				<p></p>
+				<h3>Social Links</h3>
+				<div class="sllinks">
+					<a class="txtstyle" href="https://soundcloud.com/bugconsumer/" target="_blank"><img class="imgscale" src="resources/images/soundcloud.png"></a>
+					<a class="txtstyle" href="https://twitter.com/aupinheimer" target="_blank"><img class="imgscale" src="resources/images/twitterwhite.svg"></a>
+					<a class="txtstyle" href="https://www.instagram.com/_aupin_/" target="_blank"><img class="imgscale" src="resources/images/instagramwhite.svg"></a>
+				</div>
+			</div>
+			<div class="social">
+				<img class="circle" src="resources/images/TheBugConsumer.jpg">
+				<h1>@TheBugConsumer</h1>
+				<h3>About</h3>
+				<p></p>
+				<h3>Social Links</h3>
+				<div class="sllinks">
+					<a class="txtstyle" href="https://soundcloud.com/bugconsumer/" target="_blank"><img class="imgscale" src="resources/images/soundcloud.png"></a>
+					<a class="txtstyle" href="https://twitter.com/" target="_blank"><img class="imgscale" src="resources/images/twitterwhite.svg"></a>
+					<a class="txtstyle" href="https://www.instagram.com/TheBugConsumer/" target="_blank"><img class="imgscale" src="resources/images/instagramwhite.svg"></a>
+				</div>
+			</div>
+			<div class="social">
+				<img class="circle" src="resources/images/PlayBoiPedro777.jpg">
+				<h1>@Joshua.Micheal77</h1>
+				<h3>About</h3>
+				<p></p>
+				<h3>Social Links</h3>
+				<div class="sllinks">
+					<a class="txtstyle" href="https://soundcloud.com/prince-money" target="_blank"><img class="imgscale" src="resources/images/soundcloud.png"></a>
+					<a class="txtstyle" href="https://twitter.com/" target="_blank"><img class="imgscale" src="resources/images/twitterwhite.svg"></a>
+					<a class="txtstyle" href="https://www.instagram.com/joshua.michael77/" target="_blank"><img class="imgscale" src="resources/images/instagramwhite.svg"></a>
+				</div>
+			</div>
+			<div class="social">
+				<img class="circle" src="resources/images/NoahThatsWack.jpg">
+				<h1>@NoahThatsWack</h1>
+				<h3>About</h3>
+				<p></p>
+				<h3>Social Links</h3>
+				<div class="sllinks">
+					<a class="txtstyle" href="https://soundcloud.com/noahthatswack" target="_blank"><img class="imgscale" src="resources/images/soundcloud.png"></a>
+					<a class="txtstyle" href="https://twitter.com/NoahThatsWack" target="_blank"><img class="imgscale" src="resources/images/twitterwhite.svg"></a>
+					<a class="txtstyle" href="https://www.instagram.com/NoahThatsWack/" target="_blank"><img class="imgscale" src="resources/images/instagramwhite.svg"></a>
+				</div>
+			</div>
 		</div>
-
 	</div>
+<script type="text/javascript">
+function shuffle() {
+  var container = document.getElementById("row1");
+  var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('social'));
+	elementsArray.forEach(function(element){
+  	container.removeChild(element);
+  })
+  shuffleArray(elementsArray);
+  elementsArray.forEach(function(element){
+  container.appendChild(element);
+})
+}
+
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+</script>
 </body>
 </html>
