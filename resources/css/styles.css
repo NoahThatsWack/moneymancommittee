@@ -171,4 +171,17 @@ h2, h3, p {
 	width: auto;
 	padding: 20px;
 	}
+
+	.social:last-of-type {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #212121;
+	border-radius: 10px;
+	height: 450px;
+	width: auto;
+	padding: 20px;
+	margin-bottom: 50px;
+	}
 }
