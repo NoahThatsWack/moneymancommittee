@@ -140,7 +140,6 @@ h2, h3, p {
 @media screen and (max-width: 750px) {
 	.icon {
 		max-width: 26.6%;
-		margin-left: 10%;
 	}
 	#latestdrop {
 		display: flex;
